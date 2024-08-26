@@ -8,7 +8,7 @@ const page = () => {
   const [mainTask, setmainTask] = useState([])
   const submitHandler= (e)=>{
 e.preventDefault()
-console.log(Title);
+console.log(Title,desc);
 console.log(desc);
 setTitle("")
 setdesc("")
